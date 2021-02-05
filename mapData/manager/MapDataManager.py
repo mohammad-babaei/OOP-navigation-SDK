@@ -1,6 +1,6 @@
-from MapDataRepository import MapDataRepository
-from router.BBox import BBox
-from MapDataGarph import MapDataGraph
+from mapData.repository.MapDataRepository import MapDataRepository
+from router.entity.BBox import BBox
+from mapData.entity.MapDataGarph import MapDataGraph
 
 
 class MapDataManager:

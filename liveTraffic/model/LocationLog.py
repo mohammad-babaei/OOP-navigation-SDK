@@ -1,5 +1,4 @@
-from mapData import LatLng
-from datetime import datetime
+from mapData.entity.LatLng import LatLng
 
 
 class LocationLog:

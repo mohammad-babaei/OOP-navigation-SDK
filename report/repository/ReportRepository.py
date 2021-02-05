@@ -1,6 +1,6 @@
 from typing import List
 
-from report.Report import Report
+from report.model.Report import Report
 
 
 class ReportRepository:

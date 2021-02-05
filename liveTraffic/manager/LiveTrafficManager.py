@@ -1,6 +1,6 @@
 from liveTraffic.LocationLogObserver import LocationLogObserver
 from liveTraffic.entity.LocationLog import LocationLog
-from mapData.MapDataRepository import MapDataRepository
+from mapData.repository.MapDataRepository import MapDataRepository
 
 
 class LiveTrafficManager(LocationLogObserver):
