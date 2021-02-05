@@ -1,6 +1,6 @@
 from interface import Interface, implements
-from Instruction import Instruction
-from Audio import Audio
+from instruction.entity.Audio import Audio
+from instruction.entity.Instruction import Instruction
 
 
 class TextToSpeechConverter(Interface):

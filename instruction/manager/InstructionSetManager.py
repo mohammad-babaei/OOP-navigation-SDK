@@ -1,8 +1,8 @@
 from typing import List
-from Instruction import Instruction
+from instruction.entity.Instruction import Instruction
 from TextToSpeechConverter import TextToSpeechConverter
-from Audio import Audio
-# remember to import Route from router
+from instruction.entity.Audio import Audio
+from router.entity.Route import Route
 
 class InstructionSetManager:
     
