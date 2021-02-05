@@ -13,8 +13,10 @@ class InstructionSetManager:
     def getInstructionSet(self):
         return self._instructions
 
+    #the method is mocked
     def setInstructionSet(self, route: Route):
-        pass
+        self._instructions.append(Instruction('001'))
+        self._instructions.append(Instruction('101'))
 
     def getAudioSet(self):
         audioSet = []
