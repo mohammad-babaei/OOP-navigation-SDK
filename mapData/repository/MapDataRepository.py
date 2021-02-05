@@ -1,5 +1,5 @@
-from Node import Node
-from Way import Way
+from mapData.model.Node import Node
+from mapData.model.Way import Way
 
 
 class MapDataRepository:
