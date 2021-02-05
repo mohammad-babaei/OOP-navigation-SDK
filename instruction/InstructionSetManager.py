@@ -1,6 +1,7 @@
 from typing import List
 from Instruction import Instruction
 from TextToSpeechConverter import TextToSpeechConverter
+from Audio import Audio
 # remember to import Route from router
 
 class InstructionSetManager:
@@ -15,5 +16,6 @@ class InstructionSetManager:
     def setInstructionSet(self, route: Route):
         pass
 
-    def getAudioSet(self) -> audio:
-        pass
+    def getAudioSet(self):
+        audio = Audio()
+        return audio
