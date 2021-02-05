@@ -1,6 +1,6 @@
 from liveTraffic.LocationLogObserver import LocationLogObserver
 from liveTraffic.entity.LocationLog import LocationLog
-from liveTraffic.model.AnalyticsRepository import AnalyticsRepository
+from liveTraffic.repository.AnalyticsRepository import AnalyticsRepository
 
 
 class LocationAnalyticsManager(LocationLogObserver):
