@@ -1,6 +1,6 @@
 from ShortestPathAlgorithm import ShortestPathAlgorithm
-from BBox import BBox
-from mapData.MapDataManager import MapDataManager
+from router.entity.BBox import BBox
+from mapData.manager.MapDataManager import MapDataManager
 
 
 class RoutingManager:

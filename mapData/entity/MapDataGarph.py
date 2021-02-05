@@ -1,6 +1,6 @@
 from typing import List
-from Way import Way
-from Node import Node
+from mapData.model.Way import Way
+from mapData.model.Node import Node
 
 
 class MapDataGraph:

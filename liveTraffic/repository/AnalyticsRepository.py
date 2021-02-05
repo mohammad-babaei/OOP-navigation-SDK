@@ -1,6 +1,8 @@
 from liveTraffic.model.LocationLog import LocationLog
-from mapData.LatLng import LatLng
+from mapData.entity.LatLng import LatLng
+
 from typing import List
+
 
 class AnalyticsRepository:
 

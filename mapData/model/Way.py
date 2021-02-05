@@ -1,6 +1,6 @@
 from typing import List
 
-from mapData.Node import Node
+from mapData.model.Node import Node
 
 
 class Way:

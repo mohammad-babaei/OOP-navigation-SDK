@@ -1,7 +1,7 @@
 from typing import List
 
-from report.Report import Report
-from report.ReportRepository import ReportRepository
+from report.model.Report import Report
+from report.repository.ReportRepository import ReportRepository
 
 
 class ReportManager:
