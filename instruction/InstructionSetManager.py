@@ -17,5 +17,7 @@ class InstructionSetManager:
         pass
 
     def getAudioSet(self):
-        audio = Audio()
-        return audio
+        audioSet = []
+        for item in self._instructions:
+            audioSet.append(self._converter.convertTextToVoice(instruction=item))
+        return audioSet
