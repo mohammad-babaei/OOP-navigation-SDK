@@ -5,23 +5,25 @@ from instruction.entity.Instruction import Instruction
 
 class TextToSpeechConverter(Interface):
     def convertTextToVoice(self, instruction: Instruction):
-        audio = Audio()
-        return audio
+        pass
 
 
 class PersianConverter(implements(TextToSpeechConverter)):
+    #the method is mocked
     def convertTextToVoice(self, instruction: Instruction):
-        audio = Audio()
+        audio = Audio('Be Raast Bepichid')
         return audio
 
 
 class EnglishConverter(implements(TextToSpeechConverter)):
+    #the method is mocked
     def convertTextToVoice(self, instruction: Instruction):
-        audio = Audio()
+        audio = Audio('Turn Right')
         return audio
 
 
 class ArabicConverter(implements(TextToSpeechConverter)):
+    #the method is mocked
     def convertTextToVoice(self, instruction: Instruction):
-        audio = Audio()
+        audio = Audio('Aneataf Yamina')
         return audio
