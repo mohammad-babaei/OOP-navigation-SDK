@@ -1,4 +1,4 @@
-from liveTraffic.entity.LocationLog import LocationLog
+from liveTraffic.model.LocationLog import LocationLog
 from mapData.LatLng import LatLng
 from typing import List
 
