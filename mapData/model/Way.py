@@ -21,3 +21,6 @@ class Way:
 
     def getAverageSpeed(self) -> float:
         return self.averageSpeed
+
+    def __str__(self):
+        return "<Way>" + " weight: " + str(self.weight) + " averageSpeed: " + str(self.averageSpeed)
