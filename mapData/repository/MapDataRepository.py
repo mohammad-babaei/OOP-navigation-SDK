@@ -25,5 +25,5 @@ class MapDataRepository:
     def GetWaysInBBox(self, bbox: BBox) -> List[Way]:
         pass
 
-    def GetNodesInBbox(self, bbox: BBox) -> List[Way]:
+    def GetNodesInBbox(self, bbox: BBox) -> List[Node]:
         pass
