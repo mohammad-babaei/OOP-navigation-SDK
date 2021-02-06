@@ -10,5 +10,5 @@ class LiveTrafficManager(LocationLogObserver):
 
     def onNewLocationLog(self, log: LocationLog):
         # Update traffic
-        wayId = self.mapDataRepository.findWayByLocation(log.location)
+        wayId = self.mapDataRepository.findWayByLocation(log.location).id
         self.mapDataRepository.updateWaySpeed(wayId, log.speed)
