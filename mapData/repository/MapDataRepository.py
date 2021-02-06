@@ -17,10 +17,10 @@ class MapDataRepository:
         pass
 
     def updateWaySpeed(self, wayID: int, speed: float):
-        pass
+        print('updated way {} with traffic {}'.format(wayID, speed))
 
     def findWayByLocation(self, location: LatLng) -> Way:
-        pass
+        return Way(1, 0.0, [], 0.0)
 
     def GetWaysInBBox(self, bbox: BBox) -> List[Way]:
         pass

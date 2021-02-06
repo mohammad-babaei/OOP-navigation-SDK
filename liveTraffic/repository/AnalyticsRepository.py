@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from liveTraffic.model.LocationLog import LocationLog
 from mapData.entity.LatLng import LatLng
 
@@ -11,7 +13,7 @@ class AnalyticsRepository:
         pass
 
     def saveLog(self, log: LocationLog):
-        pass
+        print('log {} was saved'.format(log))
 
     def getLogs(self, location: LatLng) -> List[LocationLog]:
-        pass
+        return [LocationLog(userId='1', location=LatLng(1.0, 1.0), datetime=datetime.now(), speed=1.0)]
