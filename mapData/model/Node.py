@@ -12,3 +12,6 @@ class Node:
 
     def getLon(self) -> float:
         return self.lon
+
+    def __str__(self):
+        return "<Node>: lat: " + str(self.lat) + " lon: " + str(self.lon)
