@@ -7,7 +7,7 @@ from report.manager.ReportManager import ReportManager
 from report.model.Report import Report, ReportType
 from report.repository.ReportRepository import ReportRepository
 from router.entity.Route import Route
-from router.manager.RoutingManager import RoutingManager
+from router.manager.RoutingManager import Router
 from router.manager.ShortestPathAlgorithm import Dijkstra
 
 if __name__ == '__main__':
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     mapDataManager = MapDataManager(mapDataRepository)
 
     # instantiating Router
-    router = RoutingManager(Dijkstra(), mapDataManager)
+    router = Router(Dijkstra(), mapDataManager)
 
     shortestPathRoute = router.findShortestPath(LatLng(51.65465, 37.5465), LatLng(63.65465, 40.5465))
 

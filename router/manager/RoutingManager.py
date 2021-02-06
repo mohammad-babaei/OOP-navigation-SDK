@@ -5,7 +5,7 @@ from mapData.manager.MapDataManager import MapDataManager
 from router.entity.Route import Route
 
 
-class RoutingManager:
+class Router:
     def __init__(self, shortestPathAlgorithm: ShortestPathAlgorithm, mapDataManager: MapDataManager):
         self.algorithm = shortestPathAlgorithm
         self.mapDataManager = mapDataManager
