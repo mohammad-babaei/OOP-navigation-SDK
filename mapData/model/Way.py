@@ -4,7 +4,8 @@ from mapData.model.Node import Node
 
 
 class Way:
-    def __init__(self, weight, nodes: List[Node], averageSpeed):
+    def __init__(self, ID, weight, nodes: List[Node], averageSpeed):
+        self.id = ID
         self.weight = weight
         self.nodes = nodes
         self.averageSpeed = averageSpeed
