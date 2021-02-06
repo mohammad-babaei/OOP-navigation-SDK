@@ -16,7 +16,7 @@ class MapDataRepository:
     def updateWayWeight(self, wayID: int):
         pass
 
-    def updateWaySpeed(self, wayID: int):
+    def updateWaySpeed(self, wayID: int, speed: float):
         pass
 
     def findWayByLocation(self, location: LatLng) -> Way:
