@@ -1,6 +1,6 @@
 from typing import List
 from instruction.entity.Instruction import Instruction
-from TextToSpeechConverter import TextToSpeechConverter
+from instruction.manager.TextToSpeechConverter import TextToSpeechConverter
 from instruction.entity.Audio import Audio
 from router.entity.Route import Route
 
